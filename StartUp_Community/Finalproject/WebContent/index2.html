@@ -1,0 +1,85 @@
+<!--
+	This is my page of  company 
+	
+	1)add product idea >>>>>add.jsp
+	2)ViewProduct >>>view.jsp
+	3)apllied investorlist >>>>> ad.jsp
+	
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard | By Code Info</title>
+  <link rel="stylesheet" href="./style2.css" />
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+<body>
+	<div class="o"></div>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#" class="logo"><br><br><br>
+        
+          <span class="nav-item">Company</span>
+        </a></li>
+        <li><a href="add.jsp">
+          <i class="fas fa-home"></i>
+          <span class="nav-item">Add product Idea</span>
+        </a></li>
+        <li><a href="View.jsp">
+          <i class="fas fa-user"></i>
+          <span class="nav-item">View product</span>
+        </a></li>
+		
+        
+        <li><a href="ad.jsp">
+          <i class="fas fa-tasks"></i>
+          <span class="nav-item">Apllied Invester List</span>
+        </a></li>
+        
+		
+      </ul>
+    </nav>
+
+    <section class="main">
+      
+
+      <section class="main-course">
+        <h1 class="title-agile text-center"></h1>
+    <div class="content-w3ls">
+        <div class="agileits-grid">
+        <center>
+        <img src="./images2/banner.jpg" width="1000" height="600"></img></center>
+            <div class="">
+                 
+            </div>
+            <!-- //content bottom -->
+        </div>
+    </div>
+    <div class="copyright text-center">
+        
+    </div>
+    <!--//copyright-->
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <!-- script for show password -->
+    <script>
+        $(".toggle-password").click(function () {
+
+            $(this).toggleClass("fa-eye fa-eye-slash");
+            var input = $($(this).attr("toggle"));
+            if (input.attr("type") == "password") {
+                input.attr("type", "text");
+            } else {
+                input.attr("type", "password");
+            }
+        });
+    </script>
+    <!-- /script for show password -->
+
+      </section>
+    </section>
+  </div>
+</body>
+</html>
